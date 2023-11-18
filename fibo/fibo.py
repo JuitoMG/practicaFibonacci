@@ -10,5 +10,4 @@ def fibonacci(num): #defino funcion
     print(num1)             #imprimimos la variable que da el resultado
     return num1
 
-entrada = int(input('Inserta un numero \n'))
-fibonacci(entrada)
+
