@@ -8,7 +8,7 @@ def fibonacci(num): #defino funcion
         num1= num2
         num2= num3         #este baile de variables calcula la sucesi£on
     
-    print(num2 - num1)       #imprimimos el resultado de la resta
+   # print(num2 - num1)       #Esta linea era para comprobar si funcionaba
     return num2 - num1       # Devolvemos el valor
 
 
