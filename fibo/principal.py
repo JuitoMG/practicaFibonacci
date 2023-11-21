@@ -5,6 +5,8 @@ from fibo import fibonacci                #Importamos la funcion Fibonacci del a
 
 class Test(unittest.TestCase):           #definimos clase Test
       
-    entrada = int(input('Inserta un numero \n'))        #Pedimos un numero por teclado 
-    fibonacci(entrada)                                  #utilizamos el numero en la funcion
-     
+   def test_comprobacióm_fibonacci(self):    #Esta función hará la comprobación
+    self.assertEqual (fibonacci(5),3)
+
+unittest.main()
+

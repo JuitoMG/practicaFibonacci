@@ -3,11 +3,12 @@ def fibonacci(num): #defino funcion
     num2 = 1
     
     for x in range (num):   #creo bucle for para calcular el numero
+     
         num3= num1 + num2
         num1= num2
-        num2= num3         #este baile de variables calcula la sucesíon
+        num2= num3         #este baile de variables calcula la sucesiÂ£on
     
-    print(num1)             #imprimimos la variable que da el resultado
-    return num1
+    print(num2 - num1)       #imprimimos el resultado de la resta
+    return num2 - num1       # Devolvemos el valor
 
 
